@@ -1,0 +1,13 @@
+[package]
+name = "docket"
+version = "0.1.0"
+authors = ["Jonas Johansson <PxlJuc@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+directories = "3.0.1"
+crossterm = "0.19"
+tui = { version = "0.14", default-features = false, features = ['crossterm'] }
+regex = "1.4.5"
